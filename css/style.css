@@ -1,0 +1,167 @@
+
+/*nav選單*/
+.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-brand img {
+	height: 50px;
+}
+
+.banner {
+	margin-top: 76px;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+
+.about {
+	padding: 150px 0;
+	background:#ffffff; 
+}
+
+.about img {
+	box-shadow:2px 2px 4px gray;
+	height: 350px;
+}
+.title {
+	font-size:30px;
+	font-weight: bold;
+	color: #003153;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title_line {
+	border-color:#ffffff;
+}
+.cos img {
+	height: 160px;
+	width: 1000px;
+}
+.story {
+	padding: 50px 0;
+	font-size: 20px;
+	font-family: 'Js Open';
+    color:#708090;
+}
+
+.story span {
+	font-style: italic;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.title_line {
+	margin-bottom: 50px;
+}
+
+.product {
+	background-color: #F0F8FF;
+	padding-bottom:100px;
+}
+.product .card {
+	background-color: #ffffff;
+	padding: 20px 10px;
+	margin-bottom: 10px;
+	height: 240px;
+	width: 160px;
+}
+
+.product img {
+	width:100%;
+}
+
+.product img:hover {
+	opacity: 0.8;
+}
+.product_name {
+	padding: 10px;
+	color:#00477D;
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+
+.contact {
+	height:750px;
+	padding-top: 100px;
+	background-image: url(../img/slogan.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+}
+
+.contact .title {
+	color:#003153;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+input[type=submit] {
+  background-color: #003153;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: #6495ED;
+}
+
+.contact {
+	height: 750px;
+	padding-top: 100px;
+	background-image: url(../img/contact.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+	
+}
+
+
+footer {
+	background-color: #ffffff;
+	padding:20px 0; 
+	text-align: center;
+
+}
+
+footer p {
+	line-height: 39px;
+	color:  #003153;
+}
+
